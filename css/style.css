@@ -1,0 +1,121 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #ef32d9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 300rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.titulo {
+  font-size: 3rem;
+  padding: 1.5rem;
+  text-align: center;
+  margin: auto;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+.titulo span {
+  font-weight: bold; 
+  font-family: sans-serif;
+}
+
+.box {
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.39);
+  border-radius: 0.5rem;
+  float: left;
+  width: 200em;
+  font-family: sans-serif;
+}
+
+label {
+  color: white;
+  background-color: #e298d8;
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.mensaje{
+  background-color: #d37df5;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container:last-child {
+  margin-right: 0;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color:#f04ce8;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:#d634c9;
+}
+
+.text-input {
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-family: sans-serif;
+}
+
+.error {
+  background-color: #5df4ff;    
+  padding: 1rem;    
+  font-size: 1.3rem;    
+  margin: 1rem auto 0;
+  color: rgb(117, 27, 113);   
+  text-align: center; 
+  text-transform: uppercase;
+  font-weight: bold;    
+  border-radius: 0.5rem;
+}
+
