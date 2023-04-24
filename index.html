@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img//lock.ico" type="image/x-icon">   
+  <title>Encriptador de Texto Js</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1 class="titulo"><span>Bienvenido al Encriptador de Texto con JS</span></h1>
+  <label class="mensaje">
+    RECUERDA: No se permiten palabras en mayuscula o con acentos
+  </label>
+  <div class="container">    
+    <div class="box">
+      <form id="formulario">
+        <label for="input-texto">Ingresa tu mensaje</label>
+        <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto en minusculas y sin acentos" rows="3" cols="30"></textarea>
+        <div class="button-container">
+          <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+          <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+        </div>
+      </form>
+    </div>
+    <div class="box">
+      <label for="mensaje-texto">Mensaje encriptado:</h2></label>
+      <textarea class="text-input" name="mensaje-texto" id="mensaje-texto"rows="3" cols="30"></textarea>              
+      <input class="btn" type="submit" value="Copiar texto" id="btn-copy">
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
